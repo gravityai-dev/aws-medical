@@ -7,7 +7,7 @@ function createNodeDefinition(): EnhancedNodeDefinition {
   const { NodeInputType } = getPlatformDependencies();
   
   return {
-    packageVersion: "1.0.6",
+    packageVersion: "1.0.7",
     type: NODE_TYPE,
     name: "AWS Comprehend Medical",
     description: "Extract medical entities, PHI, and insights from clinical text using AWS Comprehend Medical",
